@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">waterwestfinal</string>
+    <string name="waterwestfinal">waterwestfinal</string>
     --App intro--
     <string name="first_slide_title" translatable="false">Title 1</string>
     <string name="second_slide_title" translatable="false">Title 2</string>
