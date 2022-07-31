@@ -541,10 +541,17 @@
         app:layout_constraintTop_toTopOf="@+id/todaytop"
         />
     <TextView
+        android:id="@+id/waterLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/todayL"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="25L"
         android:gravity="start"
         android:textSize="36sp"
         android:textColor="@color/black"
